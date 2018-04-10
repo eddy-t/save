@@ -1,0 +1,65 @@
+/* Tablet 12" max 1200px */
+@media only screen and (max-width: 1200px) {
+     .formation-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+
+/* Tablet de 768px à 1023px */
+@media only screen and (max-width: 1023px) {
+    
+}
+
+
+
+/* Smartphone de 481px à 767px */
+@media only screen and (max-width: 767px) {
+    
+    
+    .main-nav { display: none;}
+    .mobile-nav {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav {margin-top: 10px;}
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0;}
+    .sticky .mobile-nav {margin-top: 10px;}
+    .sticky .mobile-nav i { color: #555;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+/* Smartphone de 0 à 480px */
+@media only screen and (max-width: 480px) {
+   }
+
